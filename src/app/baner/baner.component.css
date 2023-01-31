@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+:host {
+    display: block;
+    padding: 4rem 2rem 6rem;
+    background-color: var(--dark-gray);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
+}
+
+.container {
+    
+    grid-template-columns: 1fr;
+}
+
+.title {
+    font-size: 4rem;
+    padding: 0 0 2rem;
+    text-align: center;
+    font-style: italic;
+    color: var(--green);
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.name {
+    grid-row: 3/4;
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 3rem;
+    outline: 1px solid white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.name span:nth-of-type(1) span {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.name span:nth-of-type(2) {
+    display: inline-block;
+    color: var(--green);
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 10px 0;
+    letter-spacing: 8px;
+    text-shadow: 10px 8px 10px var(--black);
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    grid-row: 2/3;
+    margin: 0 auto;
+    position: relative;
+    clip-path: inset(0 round 0 0 25%);
+}
+
+.profile .profile-bg {
+    height: 75%;
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+    background-color: #69F0AE;
+    clip-path: inset(0 round 50% 0 0);
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* PC */
+
+:host.pc {
+    padding: 4rem 2rem 10rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+}
+
+:host.pc .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+:host.pc .title {
+    grid-column: 1/2;
+    padding: 0%;
+    margin: auto;
+    font-size: 5rem;
+    font-style: normal;
+    text-decoration: none;
+}
+
+:host.pc .profile {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    width: 600px;
+    height: 600px;
+}
+
+:host.pc .name {
+    grid-row: 2/3;
+    width: 600px;
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: max-content;
+}
+
+/* -------------------------My portgfolio---------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+  }
+  
+  body {
+    font-family:'Roboto';
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  }
+  .waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+.center {
+    text-align: center;
+    /* color: var(--green);
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif; */
+    /* top:80px;
+    left: 585px; */
+  }
+
+/* -------------------------------------------------------HELLO */
+
+body {
+    font-family:'Roboto';
+    background-color: #131417;  
+}
+p {
+text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container2 {
+color: #e5e5e5;
+font-size: 2.2rem;
+text-transform: uppercase;
+/* height: 100vh; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.animation {
+height:50px;
+overflow:hidden;
+margin-left: 1rem;
+}
+
+.animation > div > div {
+/* padding: 0.25rem 0.75rem; */
+height:2.81rem;
+margin-bottom: 2.81rem;
+display:inline-block;
+}
+
+.animation div:first-child {
+animation: text-animation 8s infinite;
+}
+
+.first div {
+background-color:#20a7d8;
+}
+.second div {
+background-color:#CD921E;
+}
+.third div {
+background-color:#c10528;
+}
+
+@keyframes text-animation {
+0% {margin-top: 0;}
+10% {margin-top: 0;}
+20% {margin-top: -5.62rem;}
+30% {margin-top: -5.62rem;}
+40% {margin-top: -11.24rem;}
+60% {margin-top: -11.24rem;}
+70% {margin-top: -5.62rem;}
+80% {margin-top: -5.62rem;}
+90% {margin-top: 0;}
+100% {margin-top: 0;}
+}
+
+/* _-----------------------------------NAVBAR */
+
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #263238;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}

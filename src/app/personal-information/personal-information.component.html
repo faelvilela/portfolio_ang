@@ -1,0 +1,21 @@
+
+<div class="container" id="personal">
+    <h1 class="title">
+        <span>Personal Information</span>
+    </h1>
+
+    <table>
+        <tbody>
+            <tr *ngFor="let row of myData">
+                <td *ngFor="let col of row">{{col}}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <section id="first">
+        <p *ngFor="let sentence of aboutMe">
+            {{sentence}}
+        </p>
+    </section>
+    
+</div>
