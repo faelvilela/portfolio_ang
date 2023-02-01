@@ -14,10 +14,11 @@ import { ResponsiveDirective } from './directives/responsive.directive';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
-  declarations: [AppComponent, BanerComponent, PersonalInformationComponent, EducationComponent, WorkExperienceComponent, SkillsComponent, ProjectsComponent, ContactComponent, ResponsiveDirective],
+  declarations: [AppComponent, BanerComponent, PersonalInformationComponent, EducationComponent, WorkExperienceComponent, SkillsComponent, ProjectsComponent, ContactComponent, ResponsiveDirective, NavbarComponent],
   imports: [BrowserModule,
   AppRoutingModule,
   BrowserModule,
