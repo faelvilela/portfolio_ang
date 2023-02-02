@@ -24,7 +24,7 @@ ul li h4 {
 /* PC */
 :host.pc ul li:has(ul) {
     width: max-content;
-    position: relative;
+    /* position: relative; */
     margin-left: 5rem;
 }
 

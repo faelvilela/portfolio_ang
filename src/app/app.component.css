@@ -1,6 +1,8 @@
 :host {
     display: block;
     background-color: var(--black);
+    /* position:relative;
+    margin:0 auto; */
 }
 
 :host.pc .container {

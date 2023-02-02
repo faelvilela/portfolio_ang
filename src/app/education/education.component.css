@@ -19,7 +19,7 @@ section h4 {
 /* PC */
 :host.pc section {
     width: 600px;
-    position: relative;
+    /* position: relative; */
     margin-left: 5rem;
     display: grid;
     gap: 0 1.5rem;
