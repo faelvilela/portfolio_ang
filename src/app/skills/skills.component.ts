@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Skill } from '../models/models';
 
+
 @Component({
   selector: 'skills',
   templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css'],
+  styleUrls: ['./skills.component.css'], 
 })
+
 export class SkillsComponent implements OnInit {
   skills: Skill[] = [
     {
@@ -39,7 +41,11 @@ export class SkillsComponent implements OnInit {
       rating: 10,
     },
   ];
-  constructor() {}
+  
+  constructor() {
+
+  }
+  
 
   ngOnInit(): void {}
 }
