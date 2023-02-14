@@ -15,10 +15,11 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 
 @NgModule({
-  declarations: [AppComponent, BanerComponent, PersonalInformationComponent, EducationComponent, WorkExperienceComponent, SkillsComponent, ProjectsComponent, ContactComponent, ResponsiveDirective, NavbarComponent],
+  declarations: [AppComponent, BanerComponent, PersonalInformationComponent, EducationComponent, WorkExperienceComponent, SkillsComponent, ProjectsComponent, ContactComponent, ResponsiveDirective, NavbarComponent, ProgressBarComponent],
   imports: [BrowserModule,
   AppRoutingModule,
   BrowserModule,

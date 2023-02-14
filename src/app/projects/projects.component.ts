@@ -9,13 +9,15 @@ import { Project } from '../models/models';
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
-      title: 'Google Cloud, Gmail, Google Maps',
-      technologies: 'Cloud Compounting, Angular, Angular Material',
+      title: 'Preenchimento de planilha',
+      technologies: 'Python',
       description: [
-        'Worked as a team lead to develop apps that are powered by Cloud.',
-        'Built the services of Google Map that can be used by third party apps to get data.',
-        'Was part of team to expand the google drive.',
+        'Programa com interface utilizando a biblioteca PySimpleGUI ',
+        'Preenche dados em uma planilha com a formatação nescessária dentro da planilha',
+        'A coluna de data da planilha atualiza automaticamente conforme as semanas vão passando',
+        
       ],
+      links: "https://github.com/faelvilela/gerenciamento_planilha",
     },
     {
       title: 'ChromeOS',
@@ -25,6 +27,7 @@ export class ProjectsComponent implements OnInit {
         'Got to learn about linux kernel',
         'Learned C, C++ to build an O.S.',
       ],
+      links: 'http://www.github.com',
     },
     {
       title: 'Google Toolbar',
@@ -33,6 +36,7 @@ export class ProjectsComponent implements OnInit {
         'Worked on Google Toolbar, to include the google search engine in Internet Explorer',
         'Learned multiple technologies to build the product.',
       ],
+      links: 'http://www.github.com',
     },
   ];
   constructor() {}

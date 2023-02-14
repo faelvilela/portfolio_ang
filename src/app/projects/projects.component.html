@@ -1,16 +1,18 @@
 <div class="container" id="projects">
-    <h1>Projects</h1>
+    <h1>Projetos</h1>
 
     <section *ngFor="let project of projects">
         <h2>{{project.title}}</h2>
 
         <h3>
-            <span>Technologies: </span>
+            <span>Technologias: </span>
             <span>{{project.technologies}}</span>
         </h3>
 
         <ul *ngFor="let desc of project.description">
             <li>{{desc}}</li>
         </ul>
+        <p ng-repeat="url in urlList">Link: <a href="{{project.links}}">{{project.title}}</a></p>
+        
     </section>
 </div>
