@@ -136,7 +136,7 @@
   .waviy span {
     position: relative;
     display: inline-block;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     text-transform: uppercase;
     animation: flip 2s infinite;
@@ -161,31 +161,39 @@
 
 body {
     font-family:'Roboto';
-    background-color: #131417;  
+    background-color: #131417; 
+    padding: 0;
+    margin: 0; 
 }
 p {
 text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
 }
 .container2 {
+
 color: #e5e5e5;
-font-size: 2.2rem;
+/* font-size: 2.2rem; */
+/* Tamanho da fonte reduzido resolveu problema com tela de celular */
+font-size: 1.3rem;
 text-transform: uppercase;
-/* height: 100vh; */
+/* height: 10vh; */
 display: flex;
 align-items: center;
 justify-content: center;
+
 }
 
 .animation {
-height:50px;
+height:30px;
 overflow:hidden;
 margin-left: 1rem;
 }
 
 .animation > div > div {
 /* padding: 0.25rem 0.75rem; */
+/* height:2.81rem; */
 height:2.81rem;
 margin-bottom: 2.81rem;
+
 display:inline-block;
 }
 

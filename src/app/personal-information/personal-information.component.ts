@@ -17,7 +17,7 @@ export class PersonalInformationComponent implements OnInit {
   aboutMe: string[] = [
     'Olá, atualmente sou estudante de Ciência da computação no sexto período na Universidade FUMEC.',
     'No momento sou estagiário de Ti em uma empresa de consultoria chamada Eficaz Contact Center',
-    'Durante meu tempo na empresa aprendi muito sobre ...',
+    'Durante meu tempo na empresa aprendi muito sobre infraestrutura, redes e a trabalhar e programar de forma organizada visando que outros futuramente podem precisar fazer alterações em projetos que desenvolvi ',
     'Devido a nescessidade da empresa de se modernizar aprendi a programar em Python e automatizei diversos processos demorados que antes eram feitos manualmente todos os dias.', 
     
   ];
